@@ -54,7 +54,9 @@ Notably, all critical results are interpreted with AI.
 
 1. Clone the repository.
 2. Install dependencies: `npm install`
-3. Set your API Key in the environment variables (handled by the platform environment).
+3. Set your API Key in the environment variables
+    - locally, `cp .env.template .env` and fill it out.
+    - remotely, handled by the deployment provider environment.
 4. Start the dev server: `npm start`
 
 ## Developer Notes
